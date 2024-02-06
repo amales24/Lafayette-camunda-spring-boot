@@ -1,0 +1,6 @@
+com\example\lafayette\Application.class
+com\example\lafayette\FetchExchangeRate.class
+com\example\lafayette\FetchExchangeRate$1.class
+com\example\lafayette\EmailService.class
+com\example\lafayette\SendEmail.class
+com\example\lafayette\CalculatePriceInEUR.class

@@ -1,0 +1,32 @@
+<form>
+
+    <label for="money-field"> Pack cash </label><br>
+    <input type="text" 
+         cam-variable-name="money"
+         cam-variable-type="Double"
+         class="form-control"
+         required>
+    </input><br>
+    <div> How much cash do you want to pack? </div><br><br>
+  
+    <label for="country-field"> Where are you headed? </label><br>
+    <input type="text" 
+         cam-variable-name="country"
+         cam-variable-type="String"
+         pattern="America|France"
+         class="form-control"
+         required>
+    </input><br>
+    <div> Country you are going to </div><br><br>
+  
+    <label for="emailAddress-field"> Email address </label><br>
+    <input type="email" 
+         cam-variable-name="emailAddress"
+         cam-variable-type="String"
+         pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+         class="form-control"
+         required>
+    </input><br>
+    <div> For sending notifications </div>
+  
+</form>

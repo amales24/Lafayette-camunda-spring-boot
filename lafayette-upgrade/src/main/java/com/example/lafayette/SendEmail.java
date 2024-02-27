@@ -19,7 +19,7 @@ public class SendEmail implements JavaDelegate{
 		String to = (String) execution.getVariable("emailAddress");
 		
 		String subject = "Lafayette departure info";
-		String body = "Lafayette is going to " + country + " with " + money_EUR + " EUR";
+		String body = "Lafayette is going to " + country + " with " + money_EUR + " EUR.";
 		
 		emailService.sendEmail(to, subject, body);
 	}
